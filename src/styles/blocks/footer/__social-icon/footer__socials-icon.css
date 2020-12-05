@@ -1,0 +1,8 @@
+.footer__socials-icon {
+  fill: #453784;
+  transition: all .5s ease;
+}
+
+.footer__socials-icon:hover {
+  fill: #afd7cb;
+}

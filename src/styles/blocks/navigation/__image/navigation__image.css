@@ -1,0 +1,31 @@
+.navigation__image {
+  fill: none;
+  stroke: #afd7cb;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+  transition: all .5s ease-in-out;
+  position: relative;
+  z-index: 2;
+}
+
+.navigation__image:hover {
+  stroke: black;
+}
+
+@media screen and (max-width: 550px) {
+  .navigation__image {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .navigation__image {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navigation__image {
+    width: 100%;
+  }
+}

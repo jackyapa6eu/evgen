@@ -1,0 +1,11 @@
+@font-face {
+  src: url("UbuntuMono-Bold.ttf") format("truetype");
+  font-family: 'UbuntuMono';
+  font-weight: 700;
+}
+
+@font-face {
+  src: url("UbuntuMono-Regular.ttf") format("truetype");
+  font-family: 'UbuntuMono';
+  font-weight: 700;
+}

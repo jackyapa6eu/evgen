@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+  background: #afa9cb;
+  font-family: 'UbuntuMono';
+  display: flex;
+  flex-direction: column;
+}
+
+/*#afd7cb цвет лого*/

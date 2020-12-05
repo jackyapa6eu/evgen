@@ -1,0 +1,16 @@
+.navigation__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+/* для мобилок */
+
+@media screen and (max-width: 550px) {
+  .navigation__list {
+    display: flex;
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,13 @@
+.header__logo {
+  width: 200px;
+  position: relative;
+  fill:none;
+  stroke: #afd7cb;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+  transition: all .5s ease-in-out;
+}
+
+.header__logo:hover {
+  stroke: #453784;
+}

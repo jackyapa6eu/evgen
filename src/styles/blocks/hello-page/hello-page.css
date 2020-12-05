@@ -1,0 +1,27 @@
+.hello-page {
+  max-width: 65%;
+  background: #FFFAE4;
+  box-shadow: 0px 0px 10px #898598;
+  padding: 40px 15px;
+}
+
+@media screen and (max-width: 850px) {
+  .hello-page {
+    padding: 30px 15px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .hello-page {
+    max-width: 70%;
+  }
+}
+
+/* для мобилок */
+
+@media screen and (max-width: 550px) {
+  .hello-page {
+    max-width: 96%;
+    margin: 0 auto;
+  }
+}

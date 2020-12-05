@@ -1,0 +1,15 @@
+import React from 'react';
+
+function HelloPage() {
+  return (
+    <section className="hello-page">
+      <p className="hello-page__text">
+        XXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+        XXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXX
+        XXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXX XXXXXXXXXX
+      </p>
+    </section>
+  );
+}
+
+export default HelloPage; 
