@@ -1,0 +1,8 @@
+.loader__image {
+  fill:none;
+  stroke:#AFD7CB;
+  stroke-width:2;
+  stroke-miterlimit:10;
+  z-index: 4;
+  width: 200px;
+}

@@ -1,0 +1,6 @@
+.front-end__search-form {
+  display: flex;
+  margin-bottom: 7px;
+  width: 100%;
+  justify-content: space-between;
+}

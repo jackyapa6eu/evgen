@@ -1,0 +1,26 @@
+.loader__dot {
+  fill:none;
+  stroke:#AFD7CB;
+  stroke-width:2;
+  stroke-miterlimit:10;
+  width: 17px;
+  opacity: 1;
+  animation: fadeInOut .3s cubic-bezier(0.74, 1.24, 1, 1) alternate infinite;
+}
+
+@keyframes fadeInOut {
+  from  { 
+    opacity: 1;
+  }
+  to { 
+    opacity: 0;
+  }
+}
+
+.loader__dot:nth-of-type(3) {
+  animation-delay: .1s;
+}
+
+.loader__dot:nth-of-type(4) {
+  animation-delay: .2s;
+}

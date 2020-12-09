@@ -9,3 +9,21 @@
   align-items: center;
   padding: 10px 0;
 }
+
+@media screen and (max-width: 850px) {
+  .footer {
+    width: 92%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .footer {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer {
+    width: 96%;
+  }
+}

@@ -2,13 +2,14 @@ import React from 'react';
 
 function HelloPage() {
   return (
-    <section className="hello-page">
-      <p className="hello-page__text">
-        XXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-        XXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXX
-        XXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXX XXXXXXXXXX
+    <div className="hello-page">
+      <h1 className="hello-page__title">
+        Денисов Евгений
+      </h1>
+      <p className="hello-page__subtitle">
+        frontend разработчик
       </p>
-    </section>
+    </div>
   );
 }
 

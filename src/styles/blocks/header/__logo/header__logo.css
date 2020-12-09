@@ -11,3 +11,39 @@
 .header__logo:hover {
   stroke: #453784;
 }
+
+@media screen and (max-width: 1080px) {
+  .header__logo {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__logo {
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header__logo {
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__logo {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__logo {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header__logo {
+    width: 80px;
+  }
+}

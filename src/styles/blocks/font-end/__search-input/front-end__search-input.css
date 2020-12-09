@@ -1,0 +1,14 @@
+.front-end__search-input {
+  background: none;
+  outline: none;
+  border: none;
+  color: black;
+  -webkit-appearance: none;
+  box-shadow: 0px 0px 5px #898598;
+  border-radius: 0;
+  padding: 2px 10px;
+}
+
+.front-end__search-input::placeholder {
+  color: black;
+}
